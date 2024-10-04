@@ -68,9 +68,9 @@ function check_inputs() {
   
   if (!(keys_pressed.gas || keys_pressed.brake || keys_pressed.steer_left || keys_pressed.steer_right)) {
     if (car.speed > 0) {
-      car.speed -= 0.03;
+      car.speed -= 0.06;
     } else if (car.speed < 0) {
-      car.speed += 0.03;
+      car.speed += 0.06;
     }
   }
 }
