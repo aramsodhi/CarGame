@@ -1,12 +1,12 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #19191a;
+  background-color: #0066b2;
   font-family: Roboto;
 }
 
 #canvas {
-  background-color: #19191a;
+  background-color: #0066b2;
   border-radius: 5px;
   display: block;
   position: absolute;
