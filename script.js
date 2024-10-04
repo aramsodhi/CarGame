@@ -5,7 +5,7 @@ let canvas, ctx;
 const WIDTH = innerWidth;
 const HEIGHT = innerHeight;
 
-const FPS = 45;
+const FPS = 90;
 
 (function init() {
   canvas = document.getElementById("canvas");
